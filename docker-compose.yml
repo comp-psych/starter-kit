@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  comp-psych:
+    build: .
+    image: comp-psych/starter-kit:latest
+    container_name: comp-psych-starter
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount notebooks and data so edits persist on your host machine
+      - ./notebooks:/home/comp-psych/notebooks
+      - ./data:/home/comp-psych/data
+    restart: unless-stopped
