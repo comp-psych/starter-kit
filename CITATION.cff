@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Computational Psychiatry Starter Kit"
+abstract: "One-command Docker setup for computational psychiatry analysis. Includes tutorial notebooks for Rescorla-Wagner, dual learning rate, and Q-learning models with synthetic clinical data."
+authors:
+  - family-names: Zhou
+    given-names: Peter
+    affiliation: "University of Southern California; PRAXIS"
+repository-code: "https://github.com/comp-psych/starter-kit"
+url: "https://github.com/comp-psych/starter-kit"
+keywords:
+  - computational psychiatry
+  - Docker
+  - tutorial
+  - reinforcement learning
+  - starter kit
+license: MIT
+date-released: "2026-06-04"
